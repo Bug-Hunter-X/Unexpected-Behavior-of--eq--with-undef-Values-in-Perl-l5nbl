@@ -1,0 +1,1 @@
+my $var = undef;if (defined($var) && $var eq 'some_value') {print "value is defined and equal to 'some_value'";}elsif (defined($var) && $var ne 'some_value'){ print "value is defined but not equal to 'some_value'";}else{print "value is undefined";}
